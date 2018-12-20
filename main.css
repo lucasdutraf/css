@@ -71,3 +71,13 @@ body {
 .main-nav__item a:hover {
     color:white;
 }
+
+.main-nav__item--cta a{
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #ff1b68; 
+}
+.main-nav__item--cta a:hover {
+    background-color: white;
+    color: #ff1b68; 
+}

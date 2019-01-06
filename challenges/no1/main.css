@@ -1,0 +1,11 @@
+.box {
+    border: 2px inherit black;
+    background-color: red;
+    width: 300px;
+    height: 100%;
+}
+
+.box__div {
+    padding: 10px;
+    text-align: center;
+}

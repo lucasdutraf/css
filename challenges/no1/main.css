@@ -1,11 +1,24 @@
 .box {
-    border: 2px inherit black;
+    border: 2px solid black;
     background-color: red;
-    width: 300px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+.box__first {
+    text-align: center;
+    width: 100%;
+    border: 2px solid wheat;
     height: 100%;
 }
 
-.box__div {
-    padding: 10px;
+.box__first:hover {
+    font-style: italic;
+}
+
+.box__second {
     text-align: center;
+    width: 100%;
+    border: 2px solid blue;
 }
